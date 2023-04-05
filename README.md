@@ -2,7 +2,22 @@
 
 Este é um projeto simples para executar código no console IPython usando uma interface gráfica criada com PySimpleGUI. A interface permite que você insira o código que deseja executar e visualize o resultado da execução.
 
-##Instalação
-
+<h2>Instalação</h2>
 Para executar o projeto, é necessário ter o Python 3 instalado e instalar as seguintes dependências:
-<div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div>
+<div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs">pip install ipython pysimplegui
+</code></div>
+Você também pode instalar as dependências a partir do arquivo requirements.txt fornecido:
+<div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs">pip install -r requirements.txt
+</code></div>
+<h2>Como usar</h2>
+Para executar o projeto, basta executar o arquivo `ipy_nb.py` com o comando:
+
+<div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs">python ipy_nb.py
+</code></div>
+
+A seguir, basta inserir o código que deseja executar na caixa de texto e clicar no botão "Executar". O resultado da execução será exibido na caixa de saída abaixo.
+
+<h2>Contribuindo</h2>
+Este projeto é aberto a contribuições. Sinta-se livre para abrir uma issue ou enviar um pull request se tiver alguma sugestão de melhoria ou correção a ser feita.
+
+
